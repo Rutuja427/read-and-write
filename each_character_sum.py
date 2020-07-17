@@ -1,13 +1,13 @@
 test_str=input("enter the string:")
-all_freq = {} 
+ char_sum = {} 
   
 for i in test_str: 
-    if i in all_freq: 
-        all_freq[i] += 1
+    if i in char_sum: 
+        char_sum[i] += 1
     else: 
-        all_freq[i] = 1
+        char_sum[i] = 1
   
 # printing result  
-print ("Count of all characters in given string is:\n ", all_freq)
+print ("Count of all characters in given string is:\n ", char_sum)
 	
 
